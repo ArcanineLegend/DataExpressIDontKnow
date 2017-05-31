@@ -1,0 +1,8 @@
+{
+  "pagesMenu":[
+    ["Home", "/"],
+    ["Admin", "/admin"],
+    ["Login", "/login"],
+    ["Edit", "/edit"]
+    ]
+}

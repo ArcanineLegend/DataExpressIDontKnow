@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+    head
+        -var title = obj.title;
+        -var menu = config.config;
+        block vars
+
+    body
+        header
+        block nav
+            div.nav_container
+                each item in config.pagesMenu
+                    div.navItem
+                        a(href=item[1]) #{item[0]}
+        block content
+            footer
