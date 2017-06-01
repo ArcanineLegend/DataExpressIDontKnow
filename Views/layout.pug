@@ -7,10 +7,11 @@ html(lang="en")
 
     body
         header
-        block nav
-            div.nav_container
-                each item in config.pagesMenu
-                    div.navItem
-                        a(href=item[1]) #{item[0]}
-        block content
-            footer
+        block title
+    block nav
+        div.nav_container
+            each item in config.pagesMenu
+                div.navItem
+                    a(href=item[1]) #{item[0]}
+    block content
+        footer
